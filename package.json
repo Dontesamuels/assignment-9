@@ -1,16 +1,41 @@
 {
+<<<<<<< HEAD
   "name": "new-folder-(10)",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "assignment9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "setup": "node database/setup.js",
+    "seed": "node database/seed.js"
+>>>>>>> bc4ddf3eb033246b0f7996f32936f2ce03ccddfc
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+<<<<<<< HEAD
     "jsonwebtoken": "^9.0.2"
+=======
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+>>>>>>> bc4ddf3eb033246b0f7996f32936f2ce03ccddfc
   }
 }

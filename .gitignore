@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Environment variables
 .env
 
@@ -18,3 +19,11 @@ pnpm-debug.log*
 # OS/System files
 .DS_Store
 Thumbs.db
+=======
+node_modules/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.env
+>>>>>>> bc4ddf3eb033246b0f7996f32936f2ce03ccddfc
